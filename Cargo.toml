@@ -1,0 +1,17 @@
+[package]
+name = "jsonapi"
+version = "0.1.0"
+authors = ["Waqqas Sheikh <waqqas.abdulkareem@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.12.9"
+futures = "0.1.23" 
+mopa = "0.2.2"
+serde = "1.0.75"
+serde_derive = "1.0.75"
+serde_json = "1.0.26"
+postgres = "0.15"
+jsonapi = { git = "https://github.com/michiel/jsonapi-rust", branch = "master" }
+tokio-io-pool = "0.1.5"
+uri = "*"
